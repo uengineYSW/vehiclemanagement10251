@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
+@EnableJpaRepositories
 public class UserApplication {
 
     public static ApplicationContext applicationContext;
